@@ -13,6 +13,7 @@ A sample would look like:
 				..#S
 				F.#.
 				....
+				
 Lastly, when the program find the destination in the maze, there will be asterisks * walking back through the path to indicate a path from start location to destination.
 
 A sample would look like:
@@ -39,6 +40,7 @@ remove_from_front - for removing the already explored location from the queue.
 
 Classes:
 
+
 queue.cpp/queue.h - define location struct and queue class
 
 mazeio.cpp/mazeio.h - read in files and output files(in and cout)
@@ -46,6 +48,7 @@ mazeio.cpp/mazeio.h - read in files and output files(in and cout)
 maze.cpp - main program that utilizes classes above to perform BFS and return corresponding result for different mazes.
  
 maze1, maze2, maze3 and maze 4 are sample mazes. For starting a game, type in $ ./maze < maze1.in under Linux Virtual Machine.
+
 
 Reference:
 
