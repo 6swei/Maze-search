@@ -1,4 +1,4 @@
- 
+https://upload.wikimedia.org/wikipedia/commons/3/33/Breadth-first-tree.svg
 Introduction: 
 
 Breadth-first search (BFS) is an algorithm that finds not just any path to the exit in a maze, but actually finds the shortest path from the start to the finish.It traverses or searches tree or graph data structures. It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a 'search key’) and explores the neighbor nodes first, before moving to the next level neighbors.
