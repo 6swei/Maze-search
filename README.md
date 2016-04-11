@@ -10,7 +10,8 @@ BFS was invented in the late 1950s by E. F. Moore, who used it to find the short
 
 In this BFS maze-search game, the program would first need to receive standard input from a file where the first line should contain two integers that represents the rows and columns of the maze the program is going to walk through. And then after the first line would comes the maze in a format - a period . stands for a space in the maze, a # stands for a wall in the maze, and a S indicating the starting location and a F stands for the final destination of the maze.
 
-A sample would look like: 
+A sample would look like:
+
 				4 4
 				..#.
 				..#S
@@ -20,6 +21,7 @@ A sample would look like:
 Lastly, when the program find the destination in the maze, there will be asterisks * walking back through the path to indicate a path from start location to destination.
 
 A sample would look like:
+
 				4 4
 				..#.
 				..#S
@@ -55,8 +57,7 @@ maze1, maze2, maze3 and maze 4 are sample mazes. For starting a game, type in $ 
 
 ###Reference:
 
-“Recall: breadth-first search, step by step” 
- - http://www-bcf.usc.edu/~skoenig/icaps/icaps04/icapspapers/ICAPS04ZhouR.pdf
+“Recall: breadth-first search, step by step” - http://www-bcf.usc.edu/~skoenig/icaps/icaps04/icapspapers/ICAPS04ZhouR.pdf
 
 “C++ for Everyone”, 2nd Ed. by Cay Horstmann
 
