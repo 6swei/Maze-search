@@ -1,4 +1,5 @@
-![Alt Text](https://en.wikipedia.org/wiki/Breadth-first_search#/media/File:Breadth-first-tree.svg)
+							##BFS
+![GitHub Logo](http://i.stack.imgur.com/xEprB.png)
 
 ###Introduction: 
 
