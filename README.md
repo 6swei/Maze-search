@@ -1,6 +1,6 @@
-							##BFS
 ![GitHub Logo](http://i.stack.imgur.com/xEprB.png)
 
+###BFS
 ###Introduction: 
 
 
