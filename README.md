@@ -1,4 +1,6 @@
-Introduction: 
+![Alt Text](https://en.wikipedia.org/wiki/Breadth-first_search#/media/File:Breadth-first-tree.svg)
+
+###Introduction: 
 
 
 Breadth-first search (BFS) is an algorithm that finds not just any path to the exit in a maze, but actually finds the shortest path from the start to the finish.It traverses or searches tree or graph data structures. It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a 'search key’) and explores the neighbor nodes first, before moving to the next level neighbors.
@@ -24,7 +26,7 @@ A sample would look like:
 				.***
 
 
-Methods:
+###Methods:
 
 
 char** read maze(int *rows, int *cols) - Allocate a two dimensional array when cin read in numbers for rows and columns of the maze.
@@ -38,7 +40,7 @@ add_to_back - for adding the newest discovered location a queue waiting for expl
 remove_from_front - for removing the already explored location from the queue.
 
 
-Classes:
+###Classes:
 
 
 queue.cpp/queue.h - define location struct and queue class
@@ -50,9 +52,10 @@ maze.cpp - main program that utilizes classes above to perform BFS and return co
 maze1, maze2, maze3 and maze 4 are sample mazes. For starting a game, type in $ ./maze < maze1.in under Linux Virtual Machine.
 
 
-Reference:
+###Reference:
 
-“Recall: breadth-first search, step by step” - http://www-bcf.usc.edu/~skoenig/icaps/icaps04/icapspapers/ICAPS04ZhouR.pdf
+“Recall: breadth-first search, step by step” 
+ - http://www-bcf.usc.edu/~skoenig/icaps/icaps04/icapspapers/ICAPS04ZhouR.pdf
 
 “C++ for Everyone”, 2nd Ed. by Cay Horstmann
 
